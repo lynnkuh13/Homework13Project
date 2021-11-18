@@ -1,0 +1,122 @@
+.container {
+
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/rain.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input {
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid blue;
+    border-radius: 6px;
+    font-size: 20px;
+   /* color: #313131; */
+    appearance: none;
+    margin-top: -15px; 
+    transition: 0.4 ease-out;
+    color: blue;
+}
+
+.input:focus {
+    border: 1px solid lightblue;
+}
+
+.welcome {
+    color: white;
+    font-size: 20px;
+    margin-top: -450px;
+    font-weight: bold;
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+
+}
+
+.date {
+    Color: #FFF;
+    Font-size: 20px;
+    Font-weight: 600;
+    Font-style: italic;
+    Text-align: center;
+    Text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+
+}
+
+.temp {
+      position: relative;
+      display: inline-block;
+      margin: 30px auto;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+
+      padding: 15px 25px;
+
+      color: #FFF;
+      font-size: 102px;
+      font-weight: 900;
+
+      text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+      text-align: center;
+      box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.location {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+    margin-bottom: 50px;
+}
+
+.weather {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+    text-align: center;
+}
+
+input.placeholder {
+    text-align: left;
+    color: blue;
+    font-size: 25px;
+}
+
+::-webkit-input-placeholder {
+    text-align: left;
+    color: blue;
+    font-size: 25px;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: left;  
+    color: blue;
+    font-size: 25px;
+
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: left;
+    color: blue;
+    font-size: 25px;
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: left; 
+    color: blue;
+    font-size: 25px;
+ }
+
+
+    
